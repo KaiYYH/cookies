@@ -1,0 +1,10 @@
+To Do
+- inventory on left
+- current status + nav bar on top
+- log on right
+
+In Progress
+
+
+Completed
+- Make repo
