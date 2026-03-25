@@ -1,4 +1,7 @@
 To Do
+- set up cookies object
+- 
+
 - inventory on left
 - current status + nav bar on top
 - log on right
