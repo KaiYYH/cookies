@@ -21,7 +21,6 @@ logTitle.className = 'heading';
 document.getElementById('logTitleDiv').appendChild(logTitle);
 
 let userLog = document.createElement('div');
-userLog.className = 'p';
 userLog.id = 'userLog';
 document.getElementById('log').appendChild(userLog);
 
