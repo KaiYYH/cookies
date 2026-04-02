@@ -1,25 +1,25 @@
 let ingredients = [
     {
         name: "Cookie",
-        id: 'cookie',
+        id: 1,
         description: "galleta?",
         cost: 0
     },
     {
         name: "Peanut Butter",
-        id: 'peanut butter',
+        id: 2,
         description: "mmm nom nom mmmmmmm",
         cost: 5
     },
     {
         name: "Oatmeal",
-        id: 'oatmeal',
+        id: 3,
         description: "good for horses and also for humans!",
         cost: 7
     },
     {
         name: "Chocolate Chip",
-        id: 'chocolate chip',
+        id: 4,
         description: "hephaestus plays poker with these in his spare time",
         cost: 3
     }
