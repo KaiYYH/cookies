@@ -9,3 +9,23 @@
 - main game stuff goes here too
 
 */
+
+let logTitleDiv = document.createElement('div');
+logTitleDiv.className = 'heading';
+logTitleDiv.id = 'logTitleDiv';
+document.getElementById('log').appendChild(logTitleDiv);
+
+let logTitle = document.createElement('h3');
+logTitle.innerText = 'LOG';
+logTitle.className = 'heading';
+document.getElementById('logTitleDiv').appendChild(logTitle);
+
+let userLog = document.createElement('div');
+userLog.className = 'p';
+userLog.id = 'userLog';
+document.getElementById('log').appendChild(userLog);
+
+let logEntry = document.createElement('p');
+logEntry.innerText = 'Log 1';
+logEntry.className = 'logEntry';
+document.getElementById('userLog').appendChild(logEntry);
