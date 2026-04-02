@@ -13,20 +13,17 @@ body {
     overflow: hidden; 
 }
 
-#logTitleDiv {
-    text-align: center;
-    height: 15px;
-}
-
 #userLog {
     overflow-y: auto;
     padding-left: 12px;
 }
 
 h3.heading {
+    text-align: center;
+    height: 15px;
     color: black;
 }
 
-p.logEntry {
+p {
     color: black;
 }
