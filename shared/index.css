@@ -1,0 +1,29 @@
+body {
+    background-color: #b89260;
+}
+
+#log {
+    display: block;
+    float: right;
+    width: 300px;
+    height: 700px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #d8b78b;
+    overflow: hidden; 
+}
+
+#userLog {
+    overflow-y: auto;
+    padding-left: 12px;
+}
+
+h3.heading {
+    text-align: center;
+    height: 15px;
+    color: black;
+}
+
+p {
+    color: black;
+}
