@@ -1,3 +1,5 @@
 i love css i love css i love css i love css. - hailey 2026/15/04
 
+- Let's play how long does it take Kai to figure out the syntax for importing an object in js... - Kai 2026/04/15
+
 - Why can't we have checkboxes or strikethroughs in files... would make the todo file much nicer... just saying - Kai 2026/03/24
