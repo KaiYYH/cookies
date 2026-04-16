@@ -2,6 +2,17 @@ body {
     background-color: #b89260;
 }
 
+#inventory {
+    display: block;
+    float: left;
+    width: 300px;
+    height: 700px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #d8b78b;
+    overflow: hidden;   
+}
+
 #log {
     display: block;
     float: right;
@@ -26,4 +37,24 @@ h3.heading {
 
 p {
     color: black;
+}
+
+.flex-div {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.inventoryCategory {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px dashed black;
+}
+
+.inventorySectionHeading {
+    text-align: center;
+    text-decoration: underline;
 }
