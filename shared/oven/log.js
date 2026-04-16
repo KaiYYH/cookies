@@ -10,7 +10,7 @@
 
 */
 
-import userLogs from '../fridge/userLogs';
+import userLogs from '../fridge/userLogs.js';
 
 let logTitleDiv = document.createElement('div');
 logTitleDiv.className = 'heading';
@@ -26,10 +26,9 @@ let userLog = document.createElement('div');
 userLog.id = 'userLog';
 document.getElementById('log').appendChild(userLog);
 
-for (log in userLogs) {
-    console.log(log);
+for (let log of userLogs) {
     let logEntry = document.createElement('p');
-    logEntry.innerText = log;
+    logEntry.innerText = log.description;
     logEntry.className = 'logEntry';
-    document.getElementById('userLog').appendChild(logEntry);
+    document.getElementById('userLog').prepend(logEntry);
 }
