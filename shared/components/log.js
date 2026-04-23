@@ -12,6 +12,7 @@ document.getElementById('log').appendChild(logTitleDiv);
 let logTitle = document.createElement('h3');
 logTitle.innerText = 'LOG';
 logTitle.className = 'heading';
+logTitle.id = 'logTitleDiv';
 document.getElementById('logTitleDiv').appendChild(logTitle);
 
 let userLog = document.createElement('div');
