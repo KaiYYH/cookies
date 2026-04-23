@@ -10,7 +10,7 @@
 
 */
 
-import userLogs from '../fridge/userLogs.js';
+import userLogs from '../objects/userLogs.js';
 
 let logTitleDiv = document.createElement('div');
 logTitleDiv.className = 'heading';
