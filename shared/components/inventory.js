@@ -7,6 +7,10 @@ Things you can have:
 
 // Main inventory setup
 
+let inventoryDiv = document.createElement('div');
+inventoryDiv.id = 'inventory';
+document.body.appendChild(inventoryDiv);
+
 let inventoryTitleDiv = document.createElement('div');
 inventoryTitleDiv.className = 'heading';
 inventoryTitleDiv.id = 'inventoryTitleDiv';

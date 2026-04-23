@@ -1,5 +1,9 @@
 import userLogs from '../objects/userLogs.js';
 
+let logDiv = document.createElement('div');
+logDiv.id = 'log';
+document.body.appendChild(logDiv);
+
 let logTitleDiv = document.createElement('div');
 logTitleDiv.className = 'heading';
 logTitleDiv.id = 'logTitleDiv';
