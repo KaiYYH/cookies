@@ -1,14 +1,18 @@
 To Do
-- set up cookies object
 - set up inventory backend
-- set up inventory box to loop through inventory
 - current status + nav bar on top
+- bake cookie button
+- setup events object
+- story introduction
+    - story
+    - house painting
 
-In Progress
-- dummy logs in user log
 
 Completed
 - inventory on left
 - Make repo
 - log on right
 - set up cookies object
+- dummy logs in user log
+- set up cookies object
+- set up inventory box to loop through inventory
