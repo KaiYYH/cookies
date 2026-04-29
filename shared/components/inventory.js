@@ -35,7 +35,7 @@ document.getElementById('cookiesSection').appendChild(cookieItem);
 
 let ingredientsSection = document.createElement('div');
 ingredientsSection.id = 'ingredientsSection';
-ingredientsSection.className = 'inventoryCategory';
+ingredientsSection.className = 'sub-div';
 document.getElementById('inventorySection').appendChild(ingredientsSection);
 
 let ingredientsHeader = document.createElement('div');
@@ -60,7 +60,7 @@ document.getElementById('ingredientsList').appendChild(ingredientItem);
 
 let completedSection = document.createElement('div');
 completedSection.id = 'completedSection';
-completedSection.className = 'inventoryCategory';
+completedSection.className = 'sub-div';
 document.getElementById('inventorySection').appendChild(completedSection);
 
 let completedHeader = document.createElement('div');

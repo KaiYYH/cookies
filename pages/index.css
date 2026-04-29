@@ -2,26 +2,69 @@ body {
     background-color: #b89260;
 }
 
-#inventory {
+a {
+    color: black;
+}
+
+.column-blob {
     display: block;
-    float: left;
     width: 300px;
     height: 700px;
     border: 2px solid black;
     border-radius: 10px;
     background-color: #d8b78b;
-    overflow: hidden;   
+    overflow: scroll;
+}
+
+.sub-div {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px dashed black;
+}
+
+#left-column {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 700px;
+}
+
+#navbar {
+    float: top;
+    width: 100%;
+    flex: 1;
+}
+
+#pages-div {
+    padding: 0px;
+    text-align: center;
+    gap: 8px;
+}
+
+.nav-div {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    background-color: #eecea4;
+    padding: 5px;
+}
+
+.nav-div:hover {
+    border: 1px dashed black;
+}
+
+#inventory {
+    width: 100%;
+    flex: 2;
 }
 
 #log {
-    display: block;
     float: right;
-    width: 300px;
     height: 700px;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: #d8b78b;
-    overflow: hidden; 
 }
 
 #userLog {
@@ -44,14 +87,6 @@ p {
     gap: 20px;
     flex-direction: column;
     padding: 10px;
-}
-
-.inventoryCategory {
-    gap: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    border: 2px dashed black;
 }
 
 .inventorySectionHeading {

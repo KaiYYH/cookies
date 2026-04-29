@@ -13,11 +13,13 @@
 </head>
 
 <body>
-    <div id='navbar'></div>
-    <div id='status'></div>
-    <div id='inventory'></div>
-    <div id='log'></div>
+    <div id='left-column'>
+        <div id='navbar' class='column-blob flex-div'></div>
+        <div id='inventory' class='column-blob flex-div'></div>
+    </div>
+    <div id='log' class='column-blob'></div>
 </body>
 
+<script src="../shared//components/navbar.js"></script>
 <script src='../shared/components/inventory.js'></script>
 <script type='module' src='../shared/components/log.js'></script>

@@ -1,6 +1,8 @@
 To Do
 - set up inventory backend
-- current status + nav bar on top
+- organize css
+- pages object
+- load navbar based on pages object
 - bake cookie button
 - setup events object
 - story introduction
@@ -9,6 +11,7 @@ To Do
 
 
 Completed
+- navbar frontend setup
 - inventory on left
 - Make repo
 - log on right
