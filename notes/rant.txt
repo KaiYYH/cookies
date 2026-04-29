@@ -1,3 +1,5 @@
+- Can't immortalize sad faces because of the open bracket - Kai 2026/04/28
+
 i love css i love css i love css i love css. - hailey 2026/15/04
 
 - Let's play how long does it take Kai to figure out the syntax for importing an object in js... - Kai 2026/04/15
