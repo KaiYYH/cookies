@@ -4,6 +4,8 @@ navbar setup:
 - pages
 */
 
+import pages from "../objects/pages.js";
+
 let navbarDiv = document.getElementById('navbar');
 
 let statusDiv = document.createElement('div');
@@ -19,20 +21,10 @@ pagesDiv.id = 'pages-div';
 pagesDiv.classList.add('flex-div');
 navbarDiv.appendChild(pagesDiv);
 
-let page1 = document.createElement('a');
-page1.classList.add('nav-div');
-page1.setAttribute('href', '/');
-page1.innerText = 'The Forge';
-pagesDiv.appendChild(page1);
-
-let page2 = document.createElement('a');
-page2.classList.add('nav-div');
-page2.setAttribute('href', '/');
-page2.innerText = 'The Swamp';
-pagesDiv.appendChild(page2);
-
-let page3 = document.createElement('a');
-page3.classList.add('nav-div');
-page3.setAttribute('href', '/');
-page3.innerText = 'The Festival';
-pagesDiv.appendChild(page3);
+for (let pageObject of pages) {
+    let page = document.createElement('a');
+    page.classList.add('nav-div');
+    page.setAttribute('href', pageObject.path);
+    page.innerText = pageObject.name;
+    pagesDiv.appendChild(page);
+}
