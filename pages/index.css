@@ -58,7 +58,6 @@ a {
     gap: 10px;
     width: 20%;
     height: 700px;
-    border: 2px solid blue;
 }
 
 #log {
@@ -76,7 +75,6 @@ a {
     flex-direction: column;
     width: 58%;
     padding: 5px;
-    border: 2px solid green;
 }
 
 #logTitleDiv {
