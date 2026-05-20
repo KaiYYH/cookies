@@ -1,5 +1,7 @@
 body {
     background-color: #b89260;
+    display: flex;
+    flex-direction: row;
 }
 
 a {
@@ -8,12 +10,10 @@ a {
 
 .column-blob {
     display: block;
-    width: 300px;
     height: 700px;
     border: 2px solid black;
     border-radius: 10px;
     background-color: #d8b78b;
-    overflow: scroll;
 }
 
 .sub-div {
@@ -24,17 +24,8 @@ a {
     border: 2px dashed black;
 }
 
-#left-column {
-    float: left;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    height: 700px;
-}
-
 #navbar {
     float: top;
-    width: 100%;
     flex: 1;
 }
 
@@ -58,18 +49,44 @@ a {
 }
 
 #inventory {
-    width: 100%;
     flex: 2;
 }
 
-#log {
-    float: right;
+#left-column {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
     height: 700px;
+    border: 2px solid blue;
+}
+
+#log {
+    display: inline-flex;
+    flex-direction: column;
+    float: right;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #d8b78b;
+}
+
+#introduction {
+    display: inline-flex;
+    flex-direction: column;
+    width: 58%;
+    padding: 5px;
+    border: 2px solid green;
+}
+
+#logTitleDiv {
+    height: 25px;
 }
 
 #userLog {
-    overflow-y: auto;
-    padding: 15px;
+    overflow: scroll;
+    height: 650px;
+    padding: 0px 15px;
 }
 
 h3.heading {
@@ -92,4 +109,28 @@ p {
 .inventorySectionHeading {
     text-align: center;
     text-decoration: underline;
+}
+
+.paintColours {
+    display: inline-flex;
+}
+
+#house {
+    float: right;
+    display: flex;
+}
+
+#houseDiv {
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.houseGrid {
+  background-color: #ddd;
+  border: 1px solid #000;
 }
