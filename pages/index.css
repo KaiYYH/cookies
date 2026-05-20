@@ -1,11 +1,7 @@
 body {
     background-color: #b89260;
-}
-
-#inventory {
-    display: inline-flex;
-    flex-direction: column;
-    width: 20%;
+    display: flex;
+    flex-direction: row;
 }
 
 a {
@@ -14,12 +10,10 @@ a {
 
 .column-blob {
     display: block;
-    width: 300px;
     height: 700px;
     border: 2px solid black;
     border-radius: 10px;
     background-color: #d8b78b;
-    overflow: scroll;
 }
 
 .sub-div {
@@ -30,17 +24,8 @@ a {
     border: 2px dashed black;
 }
 
-#left-column {
-    float: left;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    height: 700px;
-}
-
 #navbar {
     float: top;
-    width: 100%;
     flex: 1;
 }
 
@@ -64,13 +49,22 @@ a {
 }
 
 #inventory {
-    width: 100%;
     flex: 2;
+}
+
+#left-column {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+    height: 700px;
+    border: 2px solid blue;
 }
 
 #log {
     display: inline-flex;
     flex-direction: column;
+    float: right;
     width: 20%;
     border: 2px solid black;
     border-radius: 10px;
@@ -82,6 +76,7 @@ a {
     flex-direction: column;
     width: 58%;
     padding: 5px;
+    border: 2px solid green;
 }
 
 #logTitleDiv {
