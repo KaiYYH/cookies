@@ -71,8 +71,6 @@ a {
 }
 
 #introduction {
-    display: inline-flex;
-    flex-direction: column;
     width: 58%;
     padding: 5px;
 }
@@ -109,13 +107,10 @@ p {
     text-decoration: underline;
 }
 
-.paintColours {
-    display: inline-flex;
-}
-
 #house {
     float: right;
     display: flex;
+    margin: 10px;
 }
 
 #houseDiv {
@@ -123,12 +118,21 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
     border: 1px solid black;
 }
 
 .houseGrid {
   background-color: #ddd;
   border: 1px solid #000;
+}
+
+#paintButton {
+    margin-top: 15px;
+}
+
+#colourButtons {
+    display: flex;
+    gap: 15px;
 }
