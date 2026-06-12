@@ -1,11 +1,13 @@
 To Do
 - set up inventory backend
-- organize css
-- bake cookie button
 - setup events object
 - story introduction
-    - story
-    - house painting
+    - make story clickable
+    - make house painting colours functional
+    - make paint button functional
+    - make bake button functional
+    - add blocker boolean
+    - make duck song a link
 
 
 Completed
