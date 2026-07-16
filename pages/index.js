@@ -4,6 +4,8 @@ let introductionStoryDiv = document.createElement('div');
 introductionStoryDiv.id = 'introduction';
 document.body.appendChild(introductionStoryDiv);
 
+let isPaused = false;
+
 const step = Object.freeze({
     text: 'text',
     house: 'house',
@@ -38,7 +40,7 @@ function generateIntroText() {
     storyLine.innerText = introductionStory[0].description;
     storyLine.className = 'introductionStory';
     document.getElementById('introduction').append(storyLine);
-    order.shift();
+    /* order.shift(); */
     introductionStory.shift();
 }
 
@@ -106,7 +108,7 @@ function generateBake() {
     document.getElementById('bakeButton').appendChild(bakeButton);
 }
 
-generateIntroText();
+/* generateIntroText();
 generateHouse();
 generateIntroText();
 generateColours();
@@ -122,4 +124,38 @@ generateIntroText();
 generateIntroText();
 generateIntroText();
 generateIntroText();
-generateBake();
+generateBake(); */
+
+// boolean to check if buttons need to be used
+// function with switch to check what next step is and generate stuff
+    // remember to include order.shift() in the function
+// event listener for clicking
+
+function generateNext() {
+    if (isPaused == true) {
+        return;
+    }
+
+    switch (order[0]) {
+        case "text": 
+            generateIntroText();
+            break;
+        case "house": 
+            generateHouse();
+            break;
+        case "colours": 
+            generateColours();
+            break;
+        case "paint": 
+            generatePaint();
+            break;
+        case "bake": 
+            generateBake();
+            break;
+    }
+    
+    order.shift();
+}
+
+const click = document.getElementById('introduction');
+click.addEventListener('click', generateNext);

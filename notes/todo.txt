@@ -1,15 +1,14 @@
 To Do
 - setup events object
 - story introduction
-    - make story clickable
     - make house painting colours functional
-    - make paint button functional
+    - make paint button functional (change boolean blocker)
     - make bake button functional
-    - add blocker boolean
     - make duck song a link
 
-
 Completed
+- story introduction
+    - make story clickable
 - set up inventory backend
 - pages object
 - load navbar based on pages object
